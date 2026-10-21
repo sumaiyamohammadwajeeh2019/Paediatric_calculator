@@ -1,9 +1,0 @@
-services:
-    - type: web
-    name: pediatric-dose-master
-    env: static
-    staticPublishPath: .
-    routes:
-            - type: rewrite
-        source: /*
-        destination: /index.html
